@@ -1,0 +1,53 @@
+{
+  "name": "ai-quiz-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 闯关学习小程序",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "Sass"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "build:weapp:prod": "NODE_ENV=production taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "dev:weapp:prod": "npm run build:weapp:prod -- --watch"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "dependencies": {
+    "@babel/runtime": "^7.24.4",
+    "@tarojs/components": "4.2.1",
+    "@tarojs/helper": "4.2.1",
+    "@tarojs/plugin-framework-react": "4.2.1",
+    "@tarojs/plugin-platform-weapp": "4.2.1",
+    "@tarojs/react": "4.2.1",
+    "@tarojs/runtime": "4.2.1",
+    "@tarojs/shared": "4.2.1",
+    "@tarojs/taro": "4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@tarojs/cli": "4.2.1",
+    "@tarojs/taro-loader": "4.2.1",
+    "@tarojs/webpack5-runner": "4.2.1",
+    "@types/webpack-env": "^1.18.0",
+    "babel-preset-taro": "4.2.1",
+    "eslint": "^8.45.0",
+    "eslint-config-taro": "4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "sass": "^1.66.0",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-merge": "^5.10.0"
+  }
+}

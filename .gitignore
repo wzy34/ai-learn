@@ -1,0 +1,37 @@
+# Local environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+**/wxcloudrun-env.json
+**/project.private.config.json
+**/project.config.json
+
+# Local WeChat Developer Tools project configuration
+/ai-quiz-frontend/project.config.json
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/.swc/
+**/venv/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/coverage/
+**/htmlcov/
+*.py[cod]
+
+# Local OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
